@@ -1,7 +1,7 @@
 #include "main.h"
 /**
  *treat_flags - treat flags + and ' '
- *@flags: flags string
+ *@flags: flag strings
  *@buffer: to store result
  *@size: size of buffer
  *
