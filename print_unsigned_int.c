@@ -1,6 +1,6 @@
 #include "main.h"
 /**
- *print_unsigned_int - prints usigned integer for 'u' conversion specifier
+ *print_unsigned_int - print usigned integer for 'u' conversion specifier
  *@modif: struct containing modifier fields
  *@ap: va_list pointer containig unsigned int to print
  *
