@@ -1,9 +1,12 @@
-#ifndef _FUNCTION_PRINTF_H_
-#define _FUNCTION_PRINTF_H_
+#ifndef MAIN_H
+#define MAIN_H
 #include <stdarg.h>
+#include <stdio.h>
+#include <unistd.h>
 #include <stdlib.h>
 #include <stddef.h>
-#define BUFFER_SIZE 1024
+#define UNUSED(x) (void)(x)
+#define BUFF_SIZE 1024
 /**
  *struct modifier - mofifier fields collection
  *@flags: flags field composed of ['0', ' ', '#', '+', '-']
