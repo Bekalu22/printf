@@ -4,7 +4,7 @@
 /**
  *buffer_print - print given buffer to stdout
  *@buffer: buffer to print
- *@nbytes: number of bytes to print
+ *@nbytes: numbers of bytes to print
  *
  *Return: nbytes
  */
@@ -16,7 +16,7 @@ return (nbytes);
 /**
  *buffer_add - adds a string to buffer
  *@buffer: buffer to fill
- *@str: str to add
+ *@str: string to add
  *@buffer_pos: pointer to buffer first empty position
  *
  *Return: if buffer filled and emptyed return number of printed char
