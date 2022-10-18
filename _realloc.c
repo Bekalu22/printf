@@ -1,5 +1,4 @@
 #include <stdlib.h>
-
 /**
  * _realloc - reallocates a memory block
  * @ptr: pointer to memory to reallocate
@@ -8,7 +7,6 @@
  *
  * Return: pointer to the new memory or NULL on failure
  */
-
 void *_realloc(void *ptr, unsigned int old_size, unsigned int new_size)
 {
 	char *new_ptr;
