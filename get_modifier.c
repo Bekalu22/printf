@@ -1,7 +1,7 @@
 #include "main.h"
 #include <stdio.h>
 /**
- *free_modifier - free struct modifier
+ *free_modifier - free struct modifiers
  *@modif: pointer to struct modifier to free
  *
  */
