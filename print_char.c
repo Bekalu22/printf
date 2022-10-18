@@ -12,7 +12,7 @@ char c;
 if (!ap || !modif)
 return (0);
 c = va_arg(ap, int);
-ch = malloc(2)
+ch = malloc(2);
 if (!ch)
 {												return (NULL);
 }
