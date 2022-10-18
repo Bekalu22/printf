@@ -1,6 +1,6 @@
 #include "main.h"
 /**
- *ctox - print charachter as hexadecimal
+ *ctox - print charachters as a hexadecimal
  *@c: charachter to print
  *
  *Return: hex of char

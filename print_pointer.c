@@ -1,6 +1,6 @@
 #include "main.h"
 /**
- *print_pointer - print pointer as hexadecimal
+ *print_pointer - prints a pointer as hexadecimal
  *@modif: struct containing modifier fields
  *@ap: va_list pointer containing pointer to print
  *

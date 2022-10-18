@@ -1,6 +1,6 @@
 #include "main.h"
 /**
- *print_char - print a single char
+ *print_char - prints a single char
  *@ap: va_list pointer containg a char
  *@modif: struct modifier containig modifier fields
  *Return: one char count
