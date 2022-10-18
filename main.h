@@ -7,7 +7,7 @@
 /**
  *struct modifier - mofifier fields collection
  *@flags: flags field composed of ['0', ' ', '#', '+', '-']
- *@width: width field, positive number
+ *@width: width field, a positive number
  *@precision: precision field positive number not including '.'
  *or -1 for '*'
  *@length: length field string composed of ['h', 'l']
