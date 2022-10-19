@@ -3,10 +3,10 @@
 
 /**
  * get_print_func - gets the apropriate printing function
- * for a given format-specifier
+ * for a given format-specifiers
  * @c: format-specifier
  *
- * Return: pointer to a function or NULL if not found
+ * Return: pointer to a function or NULL if not found.
  */
 char *(*get_print_func(char c))(modifier_t *, va_list)
 {
@@ -38,7 +38,7 @@ char *(*get_print_func(char c))(modifier_t *, va_list)
  * treat_format - treats every case of '%' inside format given at pos
  * @format: string to treat
  * @pos: position of '%' to treat in format (will be modified to mark
- * end of searching position)
+ * end of searching position).
  * @ap: va_list pointer containng data to format
  *
  * Return: result string formated
