@@ -1,10 +1,10 @@
 #include "main.h"
 /**
- * _strcpy - copy string to another
- * @dest:dest
- * @src:source
+ * _strcpy - copy string to another.
+ * @dest:dest.
+ * @src:source.
  *
- * Return: string
+ * Return: string.
  */
 char *_strcpy(char *dest, char *src)
 {
@@ -19,11 +19,11 @@ char *_strcpy(char *dest, char *src)
 	return (dest);
 }
 /**
- * print_string - print a string
- * @modif: struct containing modifier fields
- * @ap: va_list pointer containing a string
+ * print_string - print a string.
+ * @modif: struct containing modifier fields.
+ * @ap: va_list pointer containing a string.
  *
- * Return: return pointer of the beginning of string
+ * Return: return pointer of the beginning of string.
  */
 char *print_string(modifier_t *modif, va_list ap)
 {
