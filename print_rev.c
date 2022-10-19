@@ -4,7 +4,7 @@
  * @ap:handle %r
  * @modif :struct modifier containig modifier fields
  *
- * Return: lenght
+ * Return: length
  */
 char *print_rev(modifier_t *modif, va_list ap)
 {
