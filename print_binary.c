@@ -1,9 +1,9 @@
 #include "main.h"
 
 /**
- * print_binary - print unsigned int as a binary
- * @modif: struct containing modifier fields
- * @ap: va_list pointer containing unsigned int to convert and print
+ * print_binary - print unsigned int as a binary.
+ * @modif: struct containing modifier fields.
+ * @ap: va_list pointer containing unsigned int to convert and print.
  *
  * Return: number of printed charachters
  */
