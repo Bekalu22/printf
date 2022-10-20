@@ -1,10 +1,10 @@
 #include "main.h"
 
 /**
- * treat_flags_o - treat flags
- * @flags: string of flags
- * @buffer: to store result
- * @pos: size of buffer
+ * treat_flags_o - treat flags.
+ * @flags: string of flags.
+ * @buffer: to store results.
+ * @pos: size of buffer.
  */
 void treat_flags_o(char *flags, char *buffer, int *pos)
 {
@@ -18,11 +18,11 @@ void treat_flags_o(char *flags, char *buffer, int *pos)
 }
 
 /**
- * print_octal - print usigned decimal as octal
- * @modif: struct containig modifier fields
- * @ap: va_list pointer containig unsigned int to print
+ * print_octal - print usigned decimal as octal.
+ * @modif: struct containig modifier fields.
+ * @ap: va_list pointer containig unsigned int to print.
  *
- * Return: number of printed characters
+ * Return: number of printed characters.
  */
 
 char *print_octal(modifier_t *modif, va_list ap)

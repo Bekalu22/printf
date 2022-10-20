@@ -1,6 +1,5 @@
 #include <stdlib.h>
 #include "main.h"
-
 /**
  * get_flags - extract flags after % into a string
  * @s: string to extract from
@@ -41,7 +40,6 @@ char *get_flags(const char *s, unsigned int *pos)
 		res_flags[size - 1] = '\0';
 	return (res_flags);
 }
-
 /**
  * get_width - extract width field after %
  * @s: string to extract from
@@ -78,7 +76,6 @@ int get_width(const char *s, unsigned int *pos)
 	} while (found);
 	return (res_width);
 }
-
 /**
  * get_precision - extract precision field that starts with '.' and after %
  * @s: string to extract from
@@ -116,7 +113,6 @@ int get_precision(const char *s, unsigned int *pos)
 	} while (found);
 	return (res_prec);
 }
-
 /**
  * get_length - extract length field after %
  * @s: string to extract from

@@ -1,11 +1,11 @@
 #include "main.h"
 
 /**
- * treat_flags_hex - treat flags
- * @flags: string of flags
- * @buffer: to store resulr
- * @size: size of buffer
- * @_case: case of character
+ * treat_flags_hex - treat flags.
+ * @flags: string of flags.
+ * @buffer: to store results.
+ * @size: size of buffer.
+ * @_case: case of character.
  */
 void treat_flags_hex(char *flags, char *buffer, int *size, char _case)
 {
@@ -22,9 +22,9 @@ void treat_flags_hex(char *flags, char *buffer, int *size, char _case)
 }
 
 /**
- * print_hex - print usigned decimal as hexadecimal
- * @modif: struct modifier containig modifier fields
- * @ap: va_list pointer containig unsigned int to print
+ * print_hex - print usigned decimal as hexadecimal.
+ * @modif: struct modifier containig modifier fields.
+ * @ap: va_list pointer containig unsigned int to print.
  *
  * Return: number of printed characters
  */
