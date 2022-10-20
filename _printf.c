@@ -28,7 +28,7 @@ int buffer_add(char buffer[], char *str, unsigned int *buffer_pos)
 {
 	int i = 0;
 	unsigned int count = 0, pos = *buffer_pos, size = BUFFER_SIZE;
-	
+
 	while (str && str[i])
 	{
 		if (pos == size)
@@ -53,7 +53,7 @@ int _printf(const char *format, ...)
 	va_list ap;
 	unsigned int i = 0, buffer_pos = 0, count = 0;
 	char *res_str, *aux, buffer[BUFFER_SIZE];
-	
+
 	if (!format || !format[0])
 		return (-1);
 	va_start(ap, format);

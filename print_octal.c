@@ -9,7 +9,7 @@
 void treat_flags_o(char *flags, char *buffer, int *pos)
 {
 	int i;
-	
+
 	for (i = 0; flags && flags[i]; i++)
 	{
 		if (flags[i] == '#')
@@ -30,7 +30,7 @@ char *print_octal(modifier_t *modif, va_list ap)
 	unsigned int n;
 	int i = 0, j = 0;
 	char buffer[11], *res_str;
-	
+
 	if (!ap || !modif || modif->specifier != 'o')
 		return (NULL);
 	n = va_arg(ap, unsigned int);

@@ -13,7 +13,7 @@ char *print_binary(modifier_t *modif, va_list ap)
 	unsigned int n;
 	int i = 0, j = 0;
 	char binary[35], *res_str;
-	
+
 	if (!ap || !modif || modif->specifier != 'b')
 		return (0);
 	n = va_arg(ap, unsigned int);

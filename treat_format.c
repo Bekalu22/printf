@@ -26,6 +26,7 @@ char *(*get_print_func(char c))(modifier_t *, va_list)
 		{'r', print_rev},
 		{'R', print_rot},
 		{'\0', NULL}};
+
 	for (i = 0; t[i].f; i++)
 	{
 		if (t[i].f == c)
@@ -49,7 +50,7 @@ char *treat_format(const char *format, unsigned int *pos, va_list ap)
 	modifier_t *modif;
 	unsigned int end_pos;
 	char *res_str, *aux;
-	
+
 	if (!format || !format[(*pos) + 1])
 	{
 		(*pos)++;
@@ -81,6 +82,6 @@ char *treat_format(const char *format, unsigned int *pos, va_list ap)
 	res_str = fun_p(modif, ap);
 	free(modif);
 	*pos = end_pos + 1;
-	
+
 	return (res_str);
 }

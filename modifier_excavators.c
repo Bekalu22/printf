@@ -14,8 +14,8 @@ char *get_flags(const char *s, unsigned int *pos)
 	char *flags_arr = "-+ 0#";
 	char *res_flags = NULL;
 	unsigned int i, found;
-	size_t size = 1;	
-	
+	size_t size = 1;
+
 	do {
 		found = 0;
 		i = 0;
@@ -53,7 +53,7 @@ char *get_flags(const char *s, unsigned int *pos)
 int get_width(const char *s, unsigned int *pos)
 {
 	int res_width = -1, found;
-	
+
 	if (s[(*pos) + 1] == '0')
 		return (-1);
 	if (s[(*pos) + 1] == '*')
@@ -90,7 +90,7 @@ int get_width(const char *s, unsigned int *pos)
 int get_precision(const char *s, unsigned int *pos)
 {
 	int res_prec = 0, found;
-	
+
 	if (s[(*pos) + 1] != '.')
 		return (-2);
 	(*pos)++;
@@ -131,7 +131,7 @@ char *get_length(const char *s, unsigned int *pos)
 	char *res_length = NULL;
 	int i, found;
 	size_t size = 1;
-	
+
 	do {
 		found = 0;
 		i = 0;
@@ -171,7 +171,7 @@ char get_specifier(const char *s, unsigned int *pos)
 {
 	char *spec_arr = "cs%dibuoxXSprR";
 	int i;
-	
+
 	for (i = 0; spec_arr[i]; i++)
 	{
 		if (spec_arr[i] == s[(*pos) + 1])
